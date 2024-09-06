@@ -7,6 +7,7 @@ public class SquareRoot {
             final long m = (l + r) / 2;
             if (m > x / m)
                 r = m;
+            
             else
                 l = m + 1;
         }
