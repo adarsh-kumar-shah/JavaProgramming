@@ -15,7 +15,8 @@ public class CyclicSort {
                 int temp = arr[i];
                 arr[i] = arr[correct];
                 arr[correct] = temp;
-            }else{
+            }
+            else{
                 i++;
             }
         }
