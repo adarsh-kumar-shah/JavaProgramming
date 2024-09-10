@@ -13,6 +13,7 @@ public class BubbleSort {
                     swapped = true;
                 }
             }
+            
             if(!swapped){
                 break;
             }
