@@ -32,6 +32,7 @@ public static void main(String[] args) {
     int[] bills2 = {5, 5, 10, 10, 20};
     int[] bills3 = {5, 5, 5, 10, 5, 20, 5, 10, 5, 20};
     
+    
     System.out.println(solution.lemonadeChange(bills1)); // Expected output: true
     System.out.println(solution.lemonadeChange(bills2)); // Expected output: false
     System.out.println(solution.lemonadeChange(bills3)); // Expected output: true
