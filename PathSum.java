@@ -34,6 +34,7 @@ class PathSum {
       PathSum pathSum = new PathSum();
       int targetSum = 22;
   
+      
       boolean result = pathSum.hasPathSum(root, targetSum);
   
       System.out.println("Has path sum " + targetSum + ": " + result);
