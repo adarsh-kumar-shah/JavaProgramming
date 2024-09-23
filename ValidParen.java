@@ -20,6 +20,7 @@ class ValidParen {
         return stack.isEmpty();
     }
 
+    
     public static void main(String[] args) {
         ValidParen solution = new ValidParen();
 
