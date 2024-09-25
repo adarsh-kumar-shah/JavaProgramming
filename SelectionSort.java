@@ -21,6 +21,7 @@ public class SelectionSort{
         arr[last] = temp;
     }
 
+    
     static int maxIndex(int[] arr, int start, int last){
         int max = start;
         for(int i= 0; i<=last; i++){
