@@ -9,6 +9,7 @@ class SeaInsPosi {
           return m;
         if (nums[m] < target)
           l = m + 1;
+          
         else
           r = m;
       }
