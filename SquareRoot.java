@@ -16,6 +16,7 @@ public class SquareRoot {
         return (int) l - 1;
     }
 
+    
     public static void main(String[] args) {
         SquareRoot squareRoot = new SquareRoot();
         
