@@ -17,6 +17,7 @@ class SymmetricTree {
         return p.val == q.val && isSymmetric(p.left, q.right) && isSymmetric(p.right, q.left);
     }
 
+    
     public static void main(String[] args) {
         SymmetricTree tree = new SymmetricTree();
 
