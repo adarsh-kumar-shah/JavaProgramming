@@ -15,7 +15,6 @@ public class ClimbingStairs {
       ClimbingStairs cs = new ClimbingStairs();
       int n = 5;  
       int result = cs.climbStairs(n);
-
       System.out.println("Number of ways to climb " + n + " stairs: " + result);
     }
   }
