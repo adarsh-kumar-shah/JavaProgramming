@@ -20,8 +20,6 @@ public class SelectionSort{
         arr[max] = arr[last];
         arr[last] = temp;
     }
-
-    
     static int maxIndex(int[] arr, int start, int last){
         int max = start;
         for(int i= 0; i<=last; i++){
