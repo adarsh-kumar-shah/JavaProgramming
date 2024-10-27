@@ -29,7 +29,6 @@ class RemoveDuplicates {
     }
 }
 
-
 class ListNode {
     int val;
     ListNode next;
