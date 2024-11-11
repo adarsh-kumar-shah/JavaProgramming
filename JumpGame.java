@@ -11,6 +11,7 @@ class JumpGame {
     public static void main(String[] args) {
       JumpGame jumpGame = new JumpGame();
       
+      
       int[] nums1 = {2, 3, 1, 1, 4};
       System.out.println("Can jump (test case 1): " + jumpGame.canJump(nums1)); 
   
