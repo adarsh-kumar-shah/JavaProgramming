@@ -19,6 +19,7 @@ class LengthOfLastWord {
       String s3 = "luffy is still joyboy";
       String s4 = "a";
   
+      
       System.out.println("Test Case 1: " + solution.lengthOfLastWord(s1)); // Expected: 5
       System.out.println("Test Case 2: " + solution.lengthOfLastWord(s2)); // Expected: 4
       System.out.println("Test Case 3: " + solution.lengthOfLastWord(s3)); // Expected: 6
