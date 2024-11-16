@@ -16,7 +16,6 @@ public class LongestSubstringWReapeating {
     public static void main(String[] args) {
         LongestSubstringWReapeating solution = new LongestSubstringWReapeating();
         
-        
         String test1 = "abcabcbb";
         String test2 = "bbbbb";
         String test3 = "pwwkew";
