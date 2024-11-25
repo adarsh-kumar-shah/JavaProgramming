@@ -23,7 +23,7 @@ class SeaInsPosi {
       int[] nums = {1, 3, 5, 6};
       int target = 5;
       System.out.println("Index of target: " + solution.searchInsert(nums, target)); // Output: 2
-      
+    
       
       target = 2;
       System.out.println("Index of target: " + solution.searchInsert(nums, target)); // Output: 1
