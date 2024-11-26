@@ -21,7 +21,6 @@ class WordPattern {
     WordPattern wp = new WordPattern();
     String pattern = "abba";
     String str = "dog cat cat dog";
-    
     boolean result = wp.wordPattern(pattern, str);
     System.out.println("Does the string follow the pattern? " + result);
   }
