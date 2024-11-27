@@ -16,7 +16,6 @@ class ValidParen {
                 return false;
             }
         }
-
         return stack.isEmpty();
     }
 
