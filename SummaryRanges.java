@@ -23,7 +23,6 @@ public class SummaryRanges {
     SummaryRanges sr = new SummaryRanges();
     int[] nums = {0, 1, 2, 4, 5, 7};  // Test input
     List<String> result = sr.summaryRanges(nums);
-
     System.out.println("Summary ranges: " + result);
   }
 }
