@@ -5,7 +5,6 @@ class RotateString {
   
     public static void main(String[] args) {
       RotateString rotateString = new RotateString();
-  
       String s = "abcde";
       String goal = "cdeab";
       
