@@ -21,7 +21,6 @@ class RemoveDuplicates {
 
         RemoveDuplicates rd = new RemoveDuplicates();
         ListNode result = rd.deleteDuplicates(head);
-
         while (result != null) {
             System.out.print(result.val + " ");
             result = result.next;
