@@ -19,13 +19,12 @@ class DistinctString {
         DistinctString solution = new DistinctString();
         String[] arr = {"a", "b", "a", "c", "b", "c", "d"};
         int k = 1;
-        System.out.println(solution.kthDistinct(arr, k));  // Output: "d"
-
+        System.out.println(solution.kthDistinct(arr, k));  
         k = 2;
-        System.out.println(solution.kthDistinct(arr, k));  // Output: ""
+        System.out.println(solution.kthDistinct(arr, k));  
         
         String[] arr2 = {"a", "b", "c", "a", "b", "d"};
         k = 2;
-        System.out.println(solution.kthDistinct(arr2, k)); // Output: "d"
+        System.out.println(solution.kthDistinct(arr2, k)); 
     }
 }
