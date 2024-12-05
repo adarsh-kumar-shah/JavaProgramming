@@ -22,7 +22,7 @@ public class DepthOfBinaryTree {
         root.right = new TreeNode(3);
         root.left.left = new TreeNode(4);
         root.left.right = new TreeNode(5);
-
+        
         DepthOfBinaryTree tree = new DepthOfBinaryTree();
 
         int depth = tree.maxDepth(root);
