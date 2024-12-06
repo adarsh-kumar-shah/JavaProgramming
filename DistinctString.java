@@ -22,7 +22,6 @@ class DistinctString {
         System.out.println(solution.kthDistinct(arr, k));  
         k = 2;
         System.out.println(solution.kthDistinct(arr, k));  
-        
         String[] arr2 = {"a", "b", "c", "a", "b", "d"};
         k = 2;
         System.out.println(solution.kthDistinct(arr2, k)); 
