@@ -12,7 +12,6 @@ public class CountingBits {
       CountingBits countingBits = new CountingBits();
       int n = 5; 
       int[] result = countingBits.countBits(n);
-  
       System.out.print("Number of 1s in binary representation from 0 to " + n + ": ");
       for (int i : result) {
         System.out.print(i + " ");
