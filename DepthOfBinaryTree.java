@@ -24,7 +24,6 @@ public class DepthOfBinaryTree {
         root.left.right = new TreeNode(5);
         
         DepthOfBinaryTree tree = new DepthOfBinaryTree();
-
         int depth = tree.maxDepth(root);
         System.out.println("The maximum depth of the binary tree is: " + depth);
     }
