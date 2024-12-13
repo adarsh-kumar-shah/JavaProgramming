@@ -14,7 +14,6 @@ class DistinctString {
 
         return "";
     }
-
     public static void main(String[] args) {
         DistinctString solution = new DistinctString();
         String[] arr = {"a", "b", "a", "c", "b", "c", "d"};
