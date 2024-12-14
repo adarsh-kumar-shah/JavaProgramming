@@ -18,6 +18,7 @@ public class MinimumNumberOfPushes {
         return ans;
     }
 
+    
     public static void main(String[] args) {
         MinimumNumberOfPushes solution = new MinimumNumberOfPushes();
         String word = "example";
