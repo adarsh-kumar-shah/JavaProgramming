@@ -21,7 +21,6 @@ public class LongestSubstringWReapeating {
         String test3 = "pwwkew";
         String test4 = "";
         String test5 = "abcdefg";
-
         System.out.println("Length of longest substring without repeating characters in '" + test1 + "' is: " + solution.lengthOfLongestSubstring(test1)); // Output: 3
         System.out.println("Length of longest substring without repeating characters in '" + test2 + "' is: " + solution.lengthOfLongestSubstring(test2)); // Output: 1
         System.out.println("Length of longest substring without repeating characters in '" + test3 + "' is: " + solution.lengthOfLongestSubstring(test3)); // Output: 3
