@@ -25,7 +25,6 @@ class LongestPalindrome {
                 break;
         return new int[] {i + 1, j - 1};
     }
-
     public static void main(String[] args) {
         LongestPalindrome lp = new LongestPalindrome();
         String s = "babad";
