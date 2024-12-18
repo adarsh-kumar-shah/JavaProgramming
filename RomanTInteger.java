@@ -20,7 +20,6 @@ class RomanTInteger {
                 
         return ans + roman[s.charAt(s.length() - 1)];
     }
-
     public static void main(String[] args) {
         RomanTInteger solution = new RomanTInteger();  
         String romanNumeral = "MCMXCIV"; // 1994
