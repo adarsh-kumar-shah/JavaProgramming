@@ -14,7 +14,6 @@ class LongestCoPrefix {
 
         return strs[0];
     }
-
     public static void main(String[] args) {
         LongestCoPrefix solution = new LongestCoPrefix();
 
