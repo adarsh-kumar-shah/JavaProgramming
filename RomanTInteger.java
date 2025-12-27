@@ -22,7 +22,7 @@ class RomanTInteger {
     }
     public static void main(String[] args) {
         RomanTInteger solution = new RomanTInteger();  
-        String romanNumeral = "MCMXCIV"; // 1994
+        String romanNumeral = "MCMXCIV"; 
         int result = solution.romanToInt(romanNumeral); 
         System.out.println("The integer value of the Roman numeral " + romanNumeral + " is: " + result);
     }
