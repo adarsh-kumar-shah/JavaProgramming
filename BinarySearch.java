@@ -8,12 +8,14 @@ public class BinarySearch {
             int mid = (start + end)/2;
             if(key==array[mid]){
                 System.out.println(array[mid]);
+                break;
             }
-            else if(key>mid){
+            else if(key>array[mid]){
                 start = mid + 1;
             }
             else{
                 end = mid -1;
+                
             }
         }
     }
